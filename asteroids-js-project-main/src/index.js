@@ -1,0 +1,1 @@
+console.log("Webpack is working! And we love Imagine Dragons!")
