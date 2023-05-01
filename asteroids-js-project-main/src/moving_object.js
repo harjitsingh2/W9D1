@@ -20,9 +20,19 @@ class MovingObject {
         // ctx.stroke();
         ctx.fill();
     }
+
+    move(pos, vel) {
+        this.pos += pos;
+        this.vel += vel;
+    }
 };
 
 
-
+// const mo = new MovingObject({
+//     pos: [30, 30],
+//     vel: [10, 10],
+//     radius: 5,
+//     color: "#9D9D9D"
+// });
 
 export default MovingObject;

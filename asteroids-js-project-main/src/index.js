@@ -13,4 +13,5 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     mo.draw(ctx);
+    mo.move([20, 20], [2,2]);
 });
